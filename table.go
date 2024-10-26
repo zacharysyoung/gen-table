@@ -27,7 +27,7 @@ var (
 )
 
 func main() {
-	const usage = `[-h] [-random] rows cols
+	const usage = `[-h] [-randChars -randLens] rows cols
 
 Table prints a simple CSV table of rows X cols size, plus a header. The rows
 and cols args must both be positive integers.`
